@@ -2,6 +2,10 @@
 Forkify project (Made by Matthew Hemingway).
 Based on the original project by [Jonas Schmedtmann](http://codingheroes.io/)'s [The Complete JavaScript Course](https://www.udemy.com/the-complete-javascript-course) on Udemy
 
+--------------------------------------------------------------------
+## __*This app is still a work in progress. Use at your own discretion*__
+--------------------------------------------------------------------
+
 ## About
 This is a cookbook application that contains recipes for multiple different foods within categories. The user will then select the food he/she likes and the recipe view will be shown with much more details. The user will then be able to add the necessary ingredients to shopping cart (*NOT YET IMPLEMENTED*).
 
@@ -14,6 +18,7 @@ This is a cookbook application that contains recipes for multiple different food
 * [Babel](https://babeljs.io/) - Convert our ESNext code to cross browser compatible JavaScript
 * [Node.js](https://nodejs.org/en/) - Server side JavaScript needed for webpack
 * [NPM](https://www.npmjs.com/) - package manager tool used to get dependencies for app.
+* [Fractional](https://github.com/ekg/fraction.js) - determines fraction or mixed numbers from floating point decimals
 
 ## How to run
 __Make sure that Node.js and NPM are installed first by running `node -v` and `npm -v`__

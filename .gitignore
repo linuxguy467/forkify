@@ -61,3 +61,6 @@ typings/
 .vscode/
 
 .DS_Store
+
+## JavaScript bundles
+dist/js/
