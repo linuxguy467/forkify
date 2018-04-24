@@ -46,6 +46,6 @@ const ModelController = async () => {
 - [x] Implement Search Model, View and Controller
 - [x] Implement Recipe Model, View and Controller
 - [x] Implement List Model, View and Controller
-- [] Implement Likes Model, View and Controller
-- [] Implement Persistant Data with localStorage
-- [] Finishing touches and app polishing
+- [ ] Implement Likes Model, View and Controller
+- [ ] Implement Persistant Data with localStorage
+- [ ] Finishing touches and app polishing
