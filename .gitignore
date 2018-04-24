@@ -59,3 +59,5 @@ typings/
 
 # Visual Studio Code Configurations
 .vscode/
+
+.DS_Store
