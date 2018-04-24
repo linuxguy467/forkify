@@ -19,6 +19,7 @@ This is a cookbook application that contains recipes for multiple different food
 * [Node.js](https://nodejs.org/en/) - Server side JavaScript needed for webpack
 * [NPM](https://www.npmjs.com/) - package manager tool used to get dependencies for app.
 * [Fractional](https://github.com/ekg/fraction.js) - determines fraction or mixed numbers from floating point decimals
+* [uniqid](https://github.com/adamhalasz/uniqid) - Generates Unique ID's for shopping lists
 
 ## How to run
 __Make sure that Node.js and NPM are installed first by running `node -v` and `npm -v`__
