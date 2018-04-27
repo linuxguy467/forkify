@@ -12,5 +12,6 @@ This is a cookbook application that contains recipes for multiple different food
 ## How to run
 __Make sure that Node.js and NPM are installed first by running `node -v` and `npm -v`__
 1) Install the dependencies using `npm install` or `npm i`.
-2) Run the development server using `npm start`. A browser window should open up within a few seconds.
-3) Enjoy the app :+1: :)
+2) Prepare for production using `npm run build`.
+3) Run with your live server program, in VS Code an extension called Live Server will work
+4) Enjoy the app :+1: :)
