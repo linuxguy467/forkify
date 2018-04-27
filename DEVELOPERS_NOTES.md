@@ -46,6 +46,11 @@ const ModelController = async () => {
 - [x] Implement Search Model, View and Controller
 - [x] Implement Recipe Model, View and Controller
 - [x] Implement List Model, View and Controller
-- [ ] Implement Likes Model, View and Controller
-- [ ] Implement Persistant Data with localStorage
+- [x] Implement Likes Model, View and Controller
+- [x] Implement Persistant Data with localStorage
+- [ ] Implement button to delete all shopping lists
+- [ ] Implement manually adding items to shopping list
+- [ ] Save shopping list data in local storage
+- [ ] Improve ingredient parsing algorithm
+- [ ] 
 - [ ] Finishing touches and app polishing

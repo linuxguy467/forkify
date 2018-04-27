@@ -22,7 +22,7 @@
   },
   "scripts": {
     "dev": "webpack --mode development",
-    "build": "webpack --mode production",
+    "build": "webpack --mode production && cp -r src/css dist/css && cp -r src/img dist/img",
     "start": "webpack-dev-server --mode development --open"
   },
   "repository": {

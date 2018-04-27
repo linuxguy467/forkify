@@ -9,16 +9,16 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     filename: 'js/main.bundle.js'
   },
-  devtool: 'cheap-module-eval-source-map',
-  devServer: {
-    contentBase: './dist',
-    inline: true,
-    stats: {
-      colors: true,
-      reasons: true,
-      chunks: false
-    }
-  },
+  //devtool: 'cheap-module-eval-source-map',
+  // devServer: {
+  //   contentBase: './dist',
+  //   inline: true,
+  //   stats: {
+  //     colors: true,
+  //     reasons: true,
+  //     chunks: false
+  //   }
+  // },
   plugins: [
     new HtmlWebpackPlugin({
       filename: 'index.html',
