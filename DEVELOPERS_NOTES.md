@@ -52,5 +52,5 @@ const ModelController = async () => {
 - [ ] Implement manually adding items to shopping list
 - [ ] Save shopping list data in local storage
 - [ ] Improve ingredient parsing algorithm
-- [ ] 
+- [ ] Implement algorithm for calculating amount of servings
 - [ ] Finishing touches and app polishing
