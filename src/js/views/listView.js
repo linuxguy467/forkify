@@ -18,6 +18,23 @@ export const renderItem = item => {
   elements.shopping.insertAdjacentHTML('beforeend', markup);
 };
 
+export const deleteList = () => {
+  elements.shopping.innerHTML = '';
+  const btn = document.querySelector('.btn-delete-list');
+  if (btn) btn.parentElement.removeChild(btn);
+};
+
+export const renderDeleteButton = () => {
+  const markup = `
+    <button class="btn-small btn-delete-list">
+      <svg>
+        <use href="img/icons.svg#icon-squared-cross"></use>
+      </svg>
+      <span>Delete Shopping list</span>
+    </button>
+  `;
+  elements.shopping.insertAdjacentHTML('beforebegin', markup);
+};
 export const deleteItem = id => {
   const item = document.querySelector(`[data-itemid="${id}"]`);
   if (item) item.parentElement.removeChild(item);

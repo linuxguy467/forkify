@@ -115,6 +115,14 @@ const controlList = () => {
     const item = state.list.addItem(el.count, el.unit, el.ingredient);
     listView.renderItem(item);
   });
+  if (!document.querySelector('.btn-delete-list')) {
+    listView.renderDeleteButton();
+    elements.shopping_div.addEventListener('click', e => {
+      if (e.target.matches('.btn-delete-list, .btn-delete-list *')) {
+        listView.deleteList();
+      }
+    });
+  }
 };
 
 /**
